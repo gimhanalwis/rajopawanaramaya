@@ -1,0 +1,129 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+@font-face {
+    font-family: bebas;
+    src: url(../font/BEBAS.ttf);
+}
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+.about{
+    color: white;
+    font-family: akrobat thin;
+    font-size: 70px;
+    text-align: center;
+    cursor: default;
+    
+}
+.about:hover{
+  font-size: 90px;  
+}
+.label{
+    font-family: bebas;
+    font-size: 50px;
+    text-align: center;
+    cursor: default;
+    color: white;
+    word-spacing: 5px;
+    
+}
+
+.label2{
+    font-family: bebas;
+    font-size: 20px;
+    text-align: center;
+    cursor: default;
+    color: white;
+    word-spacing: 5px;
+    
+}
+.labellow{
+    font-family: bebas;
+    font-size: 25px;
+    text-align: center;
+    cursor: default;
+    color: white;
+    word-spacing: 5px;
+    
+}
+.cheif{
+    font-size: 25px;
+    text-align: left;
+    text-decoration: underline darkorange;
+    
+    
+    
+}
+.des{
+    font-family: akrobat light;
+}
+.hidden{
+    opacity: 0;
+}
+.visible{
+    opacity: 1;
+}
+.webticker ul li{
+    
+    font-size: 30px;
+   
+}
+.webticker{
+    background: grey;
+    height: 80px;
+}
+.description{
+    text-align: center;
+}
+.design{
+    color: orange;
+}
+/* Sections Header
+--------------------------------*/
+
+.section-header {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-header::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: orange;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
